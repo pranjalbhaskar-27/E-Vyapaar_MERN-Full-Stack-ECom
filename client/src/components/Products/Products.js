@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Products(props) {
     // console.log(props)
+    
   return (
     <div className='col-md-3 m-4 text-align-center card' key={props.i}>
         <Link to={`product/${props.e.id}`} style={{textDecoration:'none'}}>
@@ -14,3 +15,5 @@ export default function Products(props) {
     </div>
   )
 }
+
+// hwc349hb

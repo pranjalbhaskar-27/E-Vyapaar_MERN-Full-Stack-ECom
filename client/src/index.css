@@ -47,14 +47,25 @@ code {
 .nav-item>a{
   color:#f4f6f8;
 }
+/* .card *{
+  border: 1px solid blue;
+} */
+.card>a>img{
+ align-items: center !important;
+ max-width: 100%;
+ width: 90%;
+ margin-left: 5%;
+ border-radius: 3px;
+}
 h1{
   font-size: 18px !important;
-
   text-align: center !important;
 }
 h2{
   font-size: 16px !important;
   text-align: left !important;
+  width: 90%;
+  margin-left: 5%;
 }
 .img-fluid{
   height: 200px !important;
