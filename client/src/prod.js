@@ -1,4 +1,4 @@
-const prods=[{
+const prods = [{
   "rating": 5,
   "reviews": [
 
@@ -9,7 +9,6 @@ const prods=[{
   "name": "430",
   "image": "http://dummyimage.com/250x250.png/cc0000/ffffff",
   "description": "consequat metus sapien ut nunc vestibulum ante ipsum primis in",
-  "id": 1
 }, {
   "rating": 4,
   "reviews": [
@@ -21,7 +20,6 @@ const prods=[{
   "name": "Echo",
   "image": "http://dummyimage.com/250x250.png/cc0000/ffffff",
   "description": "pretium iaculis justo in hac habitasse platea dictumst etiam faucibus",
-  "id": 2
 }, {
   "rating": 4,
   "reviews": [
@@ -33,7 +31,6 @@ const prods=[{
   "name": "Grand Prix",
   "image": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
   "description": "in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio",
-  "id": 3
 }, {
   "rating": 4,
   "reviews": [
@@ -45,7 +42,6 @@ const prods=[{
   "name": "E250",
   "image": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
   "description": "pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac",
-  "id": 4
 }, {
   "rating": 4,
   "reviews": [
@@ -57,7 +53,6 @@ const prods=[{
   "name": "E-Series",
   "image": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
   "description": "in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti",
-  "id": 5
 }, {
   "rating": 3,
   "reviews": [
@@ -69,7 +64,6 @@ const prods=[{
   "name": "Hombre",
   "image": "http://dummyimage.com/250x250.png/dddddd/000000",
   "description": "lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque",
-  "id": 6
 }, {
   "rating": 2,
   "reviews": [
@@ -81,7 +75,6 @@ const prods=[{
   "name": "Explorer",
   "image": "http://dummyimage.com/250x250.png/ff4444/ffffff",
   "description": "suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et",
-  "id": 7
 }, {
   "rating": 2,
   "reviews": [
@@ -93,7 +86,6 @@ const prods=[{
   "name": "Aero 8",
   "image": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
   "description": "pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla",
-  "id": 8
 }, {
   "rating": 2,
   "reviews": [
@@ -105,7 +97,6 @@ const prods=[{
   "name": "Town & Country",
   "image": "http://dummyimage.com/250x250.png/ff4444/ffffff",
   "description": "eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum",
-  "id": 9
 }, {
   "rating": 5,
   "reviews": [
@@ -117,7 +108,7 @@ const prods=[{
   "name": "F250",
   "image": "http://dummyimage.com/250x250.png/dddddd/000000",
   "description": "cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus",
-  "id": 10
+
 }, {
   "rating": 4,
   "reviews": [
@@ -129,7 +120,7 @@ const prods=[{
   "name": "Sidekick",
   "image": "http://dummyimage.com/250x250.png/dddddd/000000",
   "description": "duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium",
-  "id": 11
+
 }, {
   "rating": 1,
   "reviews": [
@@ -141,7 +132,7 @@ const prods=[{
   "name": "Thunderbird",
   "image": "http://dummyimage.com/250x250.png/dddddd/000000",
   "description": "maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis",
-  "id": 12
+
 }, {
   "rating": 2,
   "reviews": [
@@ -153,7 +144,7 @@ const prods=[{
   "name": "Rodeo",
   "image": "http://dummyimage.com/250x250.png/ff4444/ffffff",
   "description": "sapien a libero nam dui proin leo odio porttitor id consequat in consequat",
-  "id": 13
+
 }, {
   "rating": 5,
   "reviews": [
@@ -165,7 +156,7 @@ const prods=[{
   "name": "F-Series",
   "image": "http://dummyimage.com/250x250.png/cc0000/ffffff",
   "description": "erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec",
-  "id": 14
+
 }, {
   "rating": 2,
   "reviews": [
@@ -177,7 +168,7 @@ const prods=[{
   "name": "V50",
   "image": "http://dummyimage.com/250x250.png/cc0000/ffffff",
   "description": "eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque",
-  "id": 15
+
 }, {
   "rating": 3,
   "reviews": [
@@ -189,7 +180,7 @@ const prods=[{
   "name": "Range Rover Sport",
   "image": "http://dummyimage.com/250x250.png/dddddd/000000",
   "description": "in felis eu sapien cursus vestibulum proin eu mi nulla ac enim",
-  "id": 16
+
 }, {
   "rating": 2,
   "reviews": [
@@ -201,7 +192,7 @@ const prods=[{
   "name": "B-Series Plus",
   "image": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
   "description": "nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem",
-  "id": 17
+
 }, {
   "rating": 3,
   "reviews": [
@@ -213,7 +204,7 @@ const prods=[{
   "name": "Outlander",
   "image": "http://dummyimage.com/250x250.png/cc0000/ffffff",
   "description": "lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst",
-  "id": 18
+
 }, {
   "rating": 2,
   "reviews": [
@@ -225,7 +216,7 @@ const prods=[{
   "name": "944",
   "image": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
   "description": "suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem",
-  "id": 19
+
 }, {
   "rating": 4,
   "reviews": [
@@ -237,8 +228,8 @@ const prods=[{
   "name": "Outlander Sport",
   "image": "http://dummyimage.com/250x250.png/dddddd/000000",
   "description": "in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate",
-  "id": 20
-}];
-  
 
-  export default prods;
+}];
+
+
+export default prods;

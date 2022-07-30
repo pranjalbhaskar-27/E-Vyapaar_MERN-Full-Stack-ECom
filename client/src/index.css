@@ -60,13 +60,37 @@ code {
 h1{
   font-size: 18px !important;
   text-align: center !important;
+  color: black;
 }
-h2{
+h2,p{   /*p tag is details text in product desc page*/
   font-size: 16px !important;
   text-align: left !important;
   width: 90%;
   margin-left: 5%;
+  color: black;
 }
 .img-fluid{
   height: 200px !important;
+}
+.stars{
+  margin-left:5%;
+}
+
+/* ----------------------------------------------------------- */
+/* Product Desc Page */
+
+
+.descImg{
+  height: 50vh !important;
+}
+.descDiv{
+  margin-top: 2%;
+  margin-left: 1%;
+}
+/* .flex *{
+  border: 1px solid red;
+} */
+.quantTxt{
+  margin-left: auto;
+  width: 25%;
 }
