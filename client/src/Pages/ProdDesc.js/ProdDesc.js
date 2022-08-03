@@ -1,18 +1,36 @@
 import React from 'react';
 import Products from '../../components/Products/Products';
 import { useParams } from 'react-router-dom';
-import prods from '../../prod';
 import Rating from 'react-rating';
+import { useState,useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { getProdsById } from '../../actions/product.actions';
+
+
+
+
 
 export default function ProdDesc({ match }) {
-    const prodId = parseInt(useParams().id)
+
+    
+
+    const prods=[]
+    const prodId = useParams().id
     console.log(prodId, "----")
-    const prod = prods.find(el => el.id === prodId)
-    console.log(prod, "prod")
+    const prod = prods.find(el => el.id === prodId) 
+    // console.log(prod.name, "prod")
+     
+    const dispatch=useDispatch();
+
+    useEffect(()=>{
+
+        dispatch(getProdsById(prodId))
+    
+    }, [])
 
     return (
         <div className='descDiv'>
-            <div className='row '>
+            {/* <div className='row '>
                 <div className='col-md-6'>
                     <div className='card p-2'>
 
@@ -46,7 +64,7 @@ export default function ProdDesc({ match }) {
                         {prod.countInStock ? <button className='btn btn-dark '>Add To Cart</button> : <button className='btn btn-dark disabled '>Add To Cart</button>}
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

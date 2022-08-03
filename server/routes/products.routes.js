@@ -1,19 +1,37 @@
 const express=require("express");
 const router=express.Router();
-const Product = require("../models/products.model.js")
+const Products = require("../models/products.model.js")
 
 
 router.get("/allprods",(req,res)=>{
 
-    Product.find({},(err, docs)=>{
+    Products.find({},(err, resDocs)=>{
 
         if(!err){
-            return res.json({data:docs});
+            console.log("Get all prods working")
+            return res.send(resDocs);
+            
         }
         else{
-            return res.status(400).json({message: "something wrong in the backend side broh!"})
+            return res.status(400).json({message: "Get all-prods has some problem"})
         }
 
+    })
+
+})
+
+
+router.post('/getprodsbyid',(req,res)=>{
+
+    Products.find({_id:req.body.prodId},(err,docs)=>{
+        if(!err){
+            console.log("Posting getProdById Successfull.")
+            res.send(docs[0])
+        }
+        else{
+            console.log("Posting getProdById Failed.")
+            return res.status(400).json({message:"Something went wrong during fetching ProductById"})
+        }
     })
 
 })
