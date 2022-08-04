@@ -20,13 +20,13 @@ export const getAllProds=()=>dispatch=>{
 export const getProdsById=(prodId)=>dispatch=>{
 
     dispatch({type:"ReqProdsById"})
-
-    axios.post("/products/prodsbyid", {prodId}).then(res=>{
-        console.log(res)
+    console.log(prodId,"gpbi param");
+    axios.post("/products/getprodsbyid", {prodId}).then(res=>{
+        console.log(res.data,"getprodsactionID")
         // setProds(res.data)
         dispatch({type:"GotProdsById", payload:res.data})
       }).catch(err=>{
-        console.log(err);
+        console.log("errrr",err);
         dispatch({type:"GetProdsFailById", payload:err});
       });
 
